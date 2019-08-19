@@ -1,0 +1,2 @@
+Prefix plugins/Microarray/example/
+Plugin Microarray inputfile . outputfile e.csv
