@@ -7,7 +7,7 @@
 library("affy")
 library("gcrma")
 
-
+set.seed(1234)
 #Set the working directory where the CEL files from your microarray experiment are located:
 input <- function(inputfile) {
 tmp <- getwd();
