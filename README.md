@@ -1,8 +1,9 @@
 # Microarray
 # Language: R
-# Input: CEL (microarray data)
+# Input: DIR (location of CEL files)
 # Output: CSV (expression levels)
-# Tested with: PluMA 1.0, R 3.2.5
+# Tested with: PluMA 1.1, R 4.0.0
+# Dependency: affy_1.66.0, gcrma_2.60.0
 
 PluMA plugin to process microarray data.  Expected input is actually a directory, and the plugin
 will read any .CEL files in that folder.
